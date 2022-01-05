@@ -1,6 +1,6 @@
 # kapture
 
-![CI](https://github.com/KaustubhPatange/kapture/workflows/ci/badge.svg)
+[![CI](https://github.com/KaustubhPatange/kapture/actions/workflows/ci.yml/badge.svg)](https://github.com/KaustubhPatange/kapture/actions/workflows/ci.yml)
 
 A small utility library for Jetpack Compose to capture **Composable** content to Android Bitmap.
 
