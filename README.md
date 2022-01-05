@@ -1,7 +1,6 @@
 # kapture
 
 ![CI](https://github.com/KaustubhPatange/kapture/workflows/ci/badge.svg)
-![Maven Central](https://img.shields.io/maven-central/v/io.github.kaustubhpatange/kapture)
 
 A small utility library for Jetpack Compose to capture **Composable** content to Android Bitmap.
 
@@ -15,11 +14,13 @@ Check the sample in [/app](/app) directory which demonstrates the full usage of 
 
 ### Gradle Setup
 
+![Maven Central](https://img.shields.io/maven-central/v/io.github.kaustubhpatange/kapture)
+
 In your module's `build.gradle`, include the dependency.
 
 ```gradle
 dependencies {
-    implementation "io.github.kaustubhpatange:kapture:1.0.0"
+    implementation "io.github.kaustubhpatange:kapture:$version"
 }
 ```
 
@@ -75,7 +76,7 @@ fun TestScreen() {
 ```
 
 - The call returns a `kotlin.Result<Bitmap>` which has a bitmap if successful otherwise a throwable.
-- I'll advice you to check [Tests](kapture/src/androidTest/java/com/kpstv/compose/kapture/) for a more deeper understanding.
+- I'll advice you to check [Tests](kapture/src/androidTest/java/com/kpstv/compose/kapture/) for some more deeper understanding.
 
 ## Contribute
 
